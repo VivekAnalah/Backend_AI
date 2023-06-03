@@ -1,12 +1,4 @@
 {
-  "functions": {
-    "preBuild": {
-      "command": "npm install"
-    },
-    "postBuild": {
-      "command": "npm run build"
-    }
-  },
   "routes": [
     {
       "src": "/(.*)",
