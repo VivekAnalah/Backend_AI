@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express.Router();
 
-const Signup = require("./signup.model");
+const Signup = require("./signup.model")
 
 app.post("/", async (req, res) => {
   const { email, pass, name, mob } = req.body;
